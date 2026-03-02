@@ -1,51 +1,37 @@
-# Reaction-time-model
-
-# Reaction Time Analysis using Machine Learning
+# Reaction Time ML
 
 ## Overview
 
-This project analyzes human reaction time data using Python and basic machine learning techniques. The goal is to explore patterns in reaction time and understand variability in human responses.
+This project explores reaction time data using statistical analysis and machine learning techniques. The goal is to model attention variability and predict performance patterns based on behavioral data.
 
-This project is part of my exploration into neuroscience, psychology, and computational analysis.
-
----
-
-## What this project does
-
-* Loads reaction time data
-* Analyzes patterns in response speed
-* Visualizes reaction time variation
-* Trains a simple machine learning model to observe trends
+Rather than estimating intelligence, this project focuses on measurable components of cognitive performance such as processing speed, variability, and attention stability.
 
 ---
 
-## Technologies used
+## Objectives
 
-* Python
-* Pandas
-* Matplotlib
-* Scikit-learn
-
----
-
-## Why this project exists
-
-Reaction time is an important measure in cognitive science. This project is an attempt to understand and analyze reaction time using computational methods and machine learning.
+- Simulate and analyze reaction time datasets
+- Perform statistical analysis (mean, variance, distribution)
+- Engineer behavioral features (rolling mean, rolling std, lag features)
+- Train machine learning models to predict slow vs fast trials
+- Evaluate model performance using accuracy and confusion matrix
 
 ---
 
-## Current status
+## Technologies Used
 
-Basic implementation in process..
-Further improvements and experimentation ongoing.
+- Python
+- NumPy
+- Pandas
+- Scikit-learn
+- Matplotlib
 
 ---
 
-## Future plans
+##code is in process so is the readme will keep updating this.
 
-* Improve dataset size
-* Test different ML models
-* Add more analysis and visualization
+
+
 
 
 
