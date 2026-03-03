@@ -28,7 +28,7 @@ Rather than estimating intelligence, this project focuses on measurable componen
 
 ---
 
-##code is in process so is the readme will keep updating this.
+#code is in process so is the readme will keep updating this.
 
 
 
