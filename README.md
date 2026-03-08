@@ -28,7 +28,7 @@ Rather than estimating intelligence, this project focuses on measurable componen
 
 ---
 
-#code is in process so is the readme will keep updating this.
+# analysis and simulation part works now ml will update soon
 
 
 
