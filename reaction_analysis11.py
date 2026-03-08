@@ -16,3 +16,6 @@ print("Average reaction time:", np.mean(df["reaction_time"]))
 
 print("Average per condition:" )
 print(df.groupby("choices")["reaction_time"].mean())
+df.describe()
+
+
