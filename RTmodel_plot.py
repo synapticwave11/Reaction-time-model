@@ -14,10 +14,11 @@ plt.plot(avg_rt.index, avg_rt.values, marker='o')
 
 plt.title("Reaction Time VS Number of choices")
 plt.xlabel("Number of choices")
-plt.ylabel("Reaction Time (ms)")
+plt.ylabel("Average of Reaction Time (ms)")
 
 
 plt.show()
+
 
 
 
