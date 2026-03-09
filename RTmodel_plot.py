@@ -1,23 +1,21 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-#load the dataset created by the simulation file.
-df= pd.read_csv("reaction_time.csv")
+# load dataset
+df = pd.read_csv("reaction_time.csv")
 
-# calculate average reaction time for each condition
-avg_rt =df.groupby("choices")["reaction_time"].mean()
+# sort values so the graph connects properly
+df = df.sort_values("choices")
 
-#plot
-plt.figure(figsize=(6,4))
-plt.plot(avg_rt.index, avg_rt.values, marker='o')
+# plot
+plt.figure()
+plt.plot(df["choices"], df["reaction_time"], marker='o')
 
+plt.title("Reaction Time vs Number of Choices")
+plt.xlabel("Number of Choices")
+plt.ylabel("Reaction Time (ms)")
 
-plt.title("Reaction Time VS Number of choices")
-plt.xlabel("Number of choices")
-plt.ylabel("Average of Reaction Time (ms)")
 plt.grid(True)
-
-
 plt.show()
 
 
