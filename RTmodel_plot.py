@@ -6,10 +6,6 @@ df= pd.read_csv("reaction_time.csv")
 
 # calculate average reaction time for each condition
 avg_rt =df.groupby("choices")["reaction_time"].mean()
-print(df.head(20))
-print(df["choices"].value_counts())
-
-print(avg_rt)
 
 #plot
 plt.plot(avg_rt.index, avg_rt.values, marker='o')
@@ -20,4 +16,5 @@ plt.ylabel("Reaction Time (ms)")
 
 
 plt.show()
+
 
