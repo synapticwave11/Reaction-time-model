@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-#import the dataset created by the simulation 
+#load the dataset created by the simulation file.
 df= pd.read_csv("reaction_time.csv")
 
 # calculate average reaction time for each condition
@@ -20,3 +20,4 @@ plt.ylabel("Reaction Time (ms)")
 
 
 plt.show()
+
