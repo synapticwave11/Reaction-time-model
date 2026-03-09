@@ -11,12 +11,14 @@ avg_rt =df.groupby("choices")["reaction_time"].mean()
 plt.figure(figsize=(6,4))
 plt.plot(avg_rt.index, avg_rt.values, marker='o')
 
-plt.title("Hick's Law Simulation")
+
+plt.title("Reaction Time VS Number of choices")
 plt.xlabel("Number of choices")
 plt.ylabel("Reaction Time (ms)")
 
 
 plt.show()
+
 
 
 
