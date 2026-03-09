@@ -8,6 +8,7 @@ df= pd.read_csv("reaction_time.csv")
 avg_rt =df.groupby("choices")["reaction_time"].mean()
 
 #plot
+plt.figure(figsize=(6,4))
 plt.plot(avg_rt.index, avg_rt.values, marker='o')
 
 plt.title("Hick's Law Simulation")
@@ -16,5 +17,6 @@ plt.ylabel("Reaction Time (ms)")
 
 
 plt.show()
+
 
 
