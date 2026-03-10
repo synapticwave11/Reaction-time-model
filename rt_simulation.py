@@ -1,4 +1,4 @@
-print("Reaction Time Simulation (trial)")
+print("Reaction Time Simulation")
 
 import numpy as np
 import pandas as pd
@@ -40,6 +40,7 @@ print("/nAverage reaction time:", df["reaction_time"].mean())
 df.to_csv("reaction_time.csv", index=False)
 
 print("/nData saved to reaction_data.csv")
+
 
 
 
