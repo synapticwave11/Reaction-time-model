@@ -21,8 +21,8 @@ data.append([choices,reaction_time])
 
 
 
-#Hick's law Formula
-reaction_time = a+b* np.log2(choices)
+
+
 
 #add human noise/variability
 noise = np.random.normal(0,16)
@@ -43,6 +43,7 @@ print("/nAverage reaction time:", df["reaction_time"].mean())
 df.to_csv("reaction_time.csv", index=False)
 
 print("/nData saved to reaction_data.csv")
+
 
 
 
