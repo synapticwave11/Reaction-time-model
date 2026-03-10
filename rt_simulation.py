@@ -9,9 +9,8 @@ import pandas as pd
 choices_list = [1,2,4,8,16]
 
 data=[]
-
-#stimulate 1000 trials
-for i in range (100):
+for choices in choices_list:
+             for trial in range (50):  #generates 50 trials per condition
 
     choices = random.choice(choices_list)
 
@@ -37,6 +36,7 @@ print("/nAverage reaction time:", df["reaction_time"].mean())
 df.to_csv("reaction_time.csv", index=False)
 
 print("/nData saved to reaction_data.csv")
+
 
 
 
