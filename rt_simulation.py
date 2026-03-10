@@ -2,9 +2,8 @@ print("Reaction Time Simulation (trial)")
 
 import numpy as np
 import pandas as pd
-import random
 
-#Hick's law parameters
+#Hick's law 
 
 a=200   #base processing time (ms)
 b=50    # decision complexity factor
@@ -41,5 +40,6 @@ print("/nAverage reaction time:", df["reaction_time"].mean())
 df.to_csv("reaction_time.csv", index=False)
 
 print("/nData saved to reaction_data.csv")
+
 
 
