@@ -6,9 +6,9 @@ import pandas as pd
 
 
 # possible number of choices in eperiment
-choices_list = [1,2,8,9]
+choices_list = [1,2,4,8,16]
 
-trials=[]
+data=[]
 
 #stimulate 1000 trials
 for i in range (100):
@@ -37,6 +37,7 @@ print("/nAverage reaction time:", df["reaction_time"].mean())
 df.to_csv("reaction_time.csv", index=False)
 
 print("/nData saved to reaction_data.csv")
+
 
 
 
