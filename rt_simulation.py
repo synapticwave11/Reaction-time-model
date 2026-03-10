@@ -34,7 +34,7 @@ trials.append({
 })
 
 #Create DataFrame
-df = pd.DataFrame(trials)
+df = pd.DataFrame(data, columns=["choices","reaction_time"])
 
 print("/nAverage reaction time:", df["reaction_time"].mean())
 
@@ -42,6 +42,7 @@ print("/nAverage reaction time:", df["reaction_time"].mean())
 df.to_csv("reaction_time.csv", index=False)
 
 print("/nData saved to reaction_data.csv")
+
 
 
 
