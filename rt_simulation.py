@@ -24,10 +24,9 @@ data.append([choices,reaction_time])
 
 
 
-#add human noise/variability
-noise = np.random.normal(0,16)
 
-reaction_time = reaction_time + noise
+
+
 
 trials.append({
     "Choices": choices,
@@ -43,6 +42,7 @@ print("/nAverage reaction time:", df["reaction_time"].mean())
 df.to_csv("reaction_time.csv", index=False)
 
 print("/nData saved to reaction_data.csv")
+
 
 
 
