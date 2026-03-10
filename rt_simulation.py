@@ -6,6 +6,7 @@ import pandas as pd
 # possible number of choices in eperiment
 choices_list = [1,2,4,8,16]
 
+#choice data
 data=[]
 for choices in choices_list:
              for trial in range (50):  #generates 50 trials per condition
@@ -19,11 +20,10 @@ data.append([choices,reaction_time])
 #Create DataFrame
 df = pd.DataFrame(data, columns=["choices","reaction_time"])
 
-
 #save dataset
 df.to_csv("reaction_time.csv", index=False)
-
 print("/nData saved to reaction_data.csv")
+
 
 
 
