@@ -5,7 +5,7 @@ from sklearn.linear_model import LinearRegression
 #load dataset and analyisis
 df = pd.read_csv("reaction_time.csv")
 
-Hick'slaw uses log2 of choices
+#Hick'slaw uses log2 of choices
 df["log_choices"] = np.log2(df["choices"])
 
 #Features and target
