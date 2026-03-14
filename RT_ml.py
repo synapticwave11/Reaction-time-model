@@ -19,7 +19,7 @@ model.fit(X, y)
 print("Model trained")
 
 #prediction example
-new_choices=6
+
 
 
 
