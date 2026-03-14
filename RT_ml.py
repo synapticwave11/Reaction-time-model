@@ -24,4 +24,4 @@ log_value=np.log2(new_choices)
 new_data = pd.DataFrame({"log_choices": [log_value]})
 
 prediction = model.predict([[new_data]])
-print(f"Predicted reaction time for {new_choices} choices: {prediction[0]:.2f} ms")
+print(f"Predicted reaction time for {new_choices} choices: {prediction
