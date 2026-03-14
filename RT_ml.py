@@ -20,7 +20,6 @@ print("Model trained")
 
 #prediction example
 new_choices=6
-log_value=np.log2(new_choices)
-new_data = pd.DataFram
+log_value=np
 
 
