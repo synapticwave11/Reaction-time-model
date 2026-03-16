@@ -30,7 +30,7 @@ print(f"Predicted reaction time for {new_choices} choices: {prediction[0]:.2f} m
 #Measuring Model performance
 from sklearn.metrics import r2_score
 predictions= model.predict (X) 
-r2=r2_scroe(y,predictions)
+r2=r2_score(y,predictions)
 print(f"Model R2 score: {r2:.3f}")
 
 
