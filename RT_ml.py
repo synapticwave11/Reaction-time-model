@@ -27,5 +27,8 @@ prediction = model.predict(new_data)
 
 print(f"Predicted reaction time for {new_choices} choices: {prediction[0]:.2f} ms")
 
+#Measuring Model performance
+
+
 
 
