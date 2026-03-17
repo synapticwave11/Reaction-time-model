@@ -19,8 +19,8 @@ model.fit(X, y)
 print("Model trained")
 
 # Predict multiple values
-new
-log_value = np.log2(new_choices)
+print("\nPredictions:")
+log_value = np.log
 
 new_data = pd.DataFrame({"log_choices": [log_value]})
 prediction = model.predict(new_data)
