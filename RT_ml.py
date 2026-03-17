@@ -26,7 +26,7 @@ for i in (3,6,10,20):
     new_data = pd.DataFrame({"log_choices":[log_value]})
     
     prediction= model.predict(new_data)
-    print(f"Predicted reaction time for {i} choices: {prediction[0]:.2f} ms"             
+    print(f"Predicted reaction time for {i} choices: {prediction[0]:.2f} ms")            
 
 #Measuring Model performance
 from sklearn.metrics import r2_score
