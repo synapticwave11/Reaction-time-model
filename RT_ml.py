@@ -28,11 +28,6 @@ for i in (3,6,10,20):
     prediction= model.predict(new_data)
     print(f"Predicted reaction time for {i} choices: {prediction[0]:.2f} ms"             
 
-
-prediction = model.predict(new_data)
-
-print(f"Predicted reaction time for {new_choices} choices: {prediction[0]:.2f} ms")
-
 #Measuring Model performance
 from sklearn.metrics import r2_score
 predictions= model.predict (X) 
