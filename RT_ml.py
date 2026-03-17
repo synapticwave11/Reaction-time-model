@@ -29,8 +29,10 @@ for i in (3,6,10,20):
     print(f"Predicted reaction time for {i} choices: {prediction[0]:.2f} ms")            
 
 #Measuring Model performance
+
 from sklearn.metrics import r2_score
-predictions= model.predict (X) 
+predictions= model.predict (X)
+
 r2=r2_score(y,predictions)
 print(f"Model R2 score: {r2:.3f}")
 
