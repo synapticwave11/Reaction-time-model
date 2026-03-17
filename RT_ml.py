@@ -22,10 +22,10 @@ print("Model trained")
 print("\nPredictions:")
 for i in (3,6,10,20):
     
-    log_value = np.log2(n)
+    log_value = np.log2(i)
     new_data = pd.DataFrame({"log_choices":[log_value]})
     
-    Prediction= model.predict(new_data)
+    prediction= model.predict(new_data)
     print(f"Predicted reaction time for {i} choices: {prediction[0]:.2f} ms"             
 
 new_data = pd
