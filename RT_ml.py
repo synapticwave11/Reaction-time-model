@@ -18,7 +18,7 @@ model.fit(X, y)
 
 print("Model trained")
 
-#prediction example
+#prediction
 new_choices = 6
 log_value = np.log2(new_choices)
 
