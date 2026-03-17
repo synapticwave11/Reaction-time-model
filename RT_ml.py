@@ -26,9 +26,9 @@ for i in (3,6,10,20):
     new_data = pd.DataFrame({"log_choices":[log_value]})
     
     Prediction= model.predict(new_data)
-                            
+    print(f"Predicted reaction time for {i} choices: {prediction[0]:.2f} ms"             
 
-new_data = pd.DataFrame({"log_
+new_data = pd.Data
 prediction = model.predict(new_data)
 
 print(f"Predicted reaction time for {new_choices} choices: {prediction[0]:.2f} ms")
