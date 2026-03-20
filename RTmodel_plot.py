@@ -13,7 +13,6 @@ plt.plot(df["choices"], df["reaction_time"], marker='o')
 plt.title("Reaction Time vs Number of Choices")
 
 plt.xlabel("Number of Choices")
-
 plt.ylabel("Reaction Time (ms)")
 plt.grid(True)
 
