@@ -13,7 +13,6 @@ for choices in choices_list:
                  reaction_time = 200 + 150 *  np.log2(choices)
 
                  #add random noise
-      
                  reaction_time += np.random.normal(0,20)
                  data.append([choices,reaction_time])
 
