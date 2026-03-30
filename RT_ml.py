@@ -35,6 +35,6 @@ predictions= model.predict (X)
 r2=r2_score(y,predictions)
 print(f"Model R2 score: {r2:.3f}")
 print("fuck you")
-
+print("sorry")
 
 
