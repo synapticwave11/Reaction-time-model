@@ -22,7 +22,7 @@ df = pd.DataFrame(data, columns=["choices","reaction_time"])
 #save dataset
 df.to_csv("reaction_time.csv", index=False)
 
-print("\nData saved to reaction_data.csv")
+print("\nData saved to reaction_time.csv")
 
 
 
